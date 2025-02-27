@@ -1,0 +1,14 @@
+{
+  "name": "getserviceworker",
+  "version": "0.0.0",
+  "description": "This package helps to run sensitive code of web application only after installing and activating `ServiceWorker`, to make sure that all requests from web application will passed through `ServiceWorker`.",
+  "type": "module",
+  "main": "src/getServiceWorker.js",
+  "types": "types/getServiceWorker.d.ts",
+  "scripts": {},
+  "keywords": [
+    "frontend", "ServiceWorker", "worker"
+  ],
+  "author": "h41ku <h41ku.c0de@ya.ru>",
+  "license": "MIT"
+}
