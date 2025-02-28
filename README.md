@@ -9,6 +9,7 @@ from web application will passed through `ServiceWorker`.
 - installing and activating `ServiceWorker` at the very first time page load
 - updating and activating `ServiceWorker`, if update is available, on each page load
 - an easy way to get access to the current activated `ServiceWorker`
+- successfully handling case when user force reloads page
 
 ## Installing
 
