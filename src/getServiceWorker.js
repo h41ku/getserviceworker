@@ -7,7 +7,7 @@ export default async (scriptUrl, options) => {
     if (active && !next) {
         if (!serviceWorkerContainer.controller) { // is null if the request is a force refresh (shift+refresh)
             location.reload() // this is most clearly way to delegate control to active ServiceWorker
-            return new Promise() // wait while reloading
+            return new Promise(() => {}) // wait while reloading
         }
         return Promise.resolve(active)
     }
