@@ -1,6 +1,6 @@
 {
   "name": "getserviceworker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This package helps to run sensitive code of web application only after installing and activating `ServiceWorker`, to make sure that all requests from web application will passed through `ServiceWorker`.",
   "type": "module",
   "main": "src/getServiceWorker.js",
